@@ -34,4 +34,4 @@ An interactive web-based Path Finding Visualizer built using HTML, CSS, and Java
 
 ## Author
 
-Chandu Sai N.
+Chandu Sai.N
