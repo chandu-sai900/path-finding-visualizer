@@ -1,0 +1,39 @@
+body {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.controls {
+    margin: 15px;
+}
+
+button,
+select {
+    padding: 8px;
+    margin: 5px;
+}
+
+.legend {
+    margin: 15px;
+}
+
+.legend span {
+    margin: 8px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(20, 25px);
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

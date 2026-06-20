@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>PathFindingVisualizer</h1>
+
+<div class="controls">
+    <select id="algoSelect">
+        <option value="bfs">BFS</option>
+        <option value="dfs">DFS</option>
+        <option value="dijkstra">Dijkstra</option>
+        <option value="astar">A*</option>
+    </select>
+
+    <button id="startBtn">Start</button>
+    <button id="resetBtn">Reset</button>
+    <button id="clearWallsBtn">Clear Walls</button>
+
+    <label>Speed</label>
+    <input type="range" id="speedSlider" min="5" max="100" value="20">
+</div>
+
+<div class="legend">
+    <span>🟢 Start</span>
+    <span>🔴 End</span>
+    <span>⚫ Wall</span>
+    <span>🔵 BFS</span>
+    <span>🟠 DFS</span>
+    <span>🟣 Dijkstra</span>
+    <span>🔷 A*</span>
+    <span>🟡 Path</span>
+</div>
+
+<div id="grid"></div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
